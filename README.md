@@ -4,7 +4,7 @@ JackPass Manager is a python application that uses the PyQt5 library and QtDesig
 
 ![App](https://user-images.githubusercontent.com/82703688/171824444-4d644bf4-3e55-4047-a7fb-a827012c26e2.png)
 
-Content : 
+# Content
 
 Login Menu : Default Credential is username 'admin' and password 'admin' 
 
@@ -15,3 +15,23 @@ Dashboard Page:
 	- Show password and delete data button only trigerred when you click the id column.
 	- Delete all entries.
 - Logout : Exit Application
+
+
+# Install
+
+<h4>Install PyQt5 Library</h4>
+
+```
+pip install PyQt5
+```
+
+```
+pip install pyqt5-tools
+```
+
+<h4>Git Clone</h4>
+
+```
+git clone https://github.com/Zalayetha/Project-Password-Manager.git
+```
+<hr>
