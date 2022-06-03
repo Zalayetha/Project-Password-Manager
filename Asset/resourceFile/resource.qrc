@@ -1,0 +1,14 @@
+<RCC>
+  <qresource prefix="asset">
+    <file>../img/add.png</file>
+    <file>../img/cil-menu.png</file>
+    <file>../img/key pass manager (fix).png</file>
+    <file>../img/logOut.png</file>
+    <file>../img/see.png</file>
+    <file>key pass manager (fix).png</file>
+    <file>logOut.png</file>
+    <file>add.png</file>
+    <file>see.png</file>
+    <file>cil-menu.png</file>
+  </qresource>
+</RCC>

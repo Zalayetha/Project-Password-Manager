@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="Asset">
+    <file>../../../../Password Manager V4/resource file/key.png</file>
+    <file>../img/icon_close.png</file>
+  </qresource>
+</RCC>
