@@ -12,7 +12,8 @@ Dashboard Page:
 - Create data menu : Input field for website,email, and password
 - See credential menu : 
 	- A table view for showing user data.
-	- Show password and delete data button only trigerred when you click the id column.
+	- Show password,delete data and update data button only trigerred when you click the id column.
+	- Refresh data in table
 	- Delete all entries.
 - Logout : Exit Application
 
