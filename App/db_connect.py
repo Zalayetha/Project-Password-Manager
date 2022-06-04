@@ -87,3 +87,14 @@ def show_pass(id):
     connection.commit()
     curs.close()
     connection.close()
+   
+def update_data(id,new_pass):
+    global result
+    connect()
+    manage.encrypt(new_pass)
+    curs=connection.cursor()
+    list_data = [(manage.b64_encrypt,id)]
+    curs.executemany("UPDATE Data_User SET Password = ? WHERE id = ?",list_data)
+    connection.commit()
+    curs.close()
+    connection.close()
