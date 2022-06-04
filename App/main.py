@@ -69,6 +69,13 @@ class MainWindow(QMainWindow):
 
           # delete data button
           self.ui.delete_data.clicked.connect(lambda:UIFunctions.clear_row(self))
+          
+          # update data
+          self.ui.update_data.clicked.connect(lambda:UIFunctions.update_msg_box(self))
+          
+          # refresh table
+          self.ui.refresh_table.clicked.connect(lambda:find_plainpass())
+          self.ui.refresh_table.clicked.connect(lambda:UIFunctions.input_data(self))
 
           # delete all entries button 
           self.ui.delete_all.clicked.connect(lambda:UIFunctions.clear_all(self))
