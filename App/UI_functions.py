@@ -1,4 +1,3 @@
-from turtle import update
 from main import *
 import db_connect
 from db_connect import *
